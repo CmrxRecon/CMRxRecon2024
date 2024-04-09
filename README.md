@@ -1,1 +1,1 @@
-# CMRxRecon2024
+# CMRxUniversalRecon2024
