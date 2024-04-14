@@ -52,7 +52,7 @@ A total of 330 healthy volunteers are recruited for multi-contrast CMR imaging i
 
 **The released dataset includes 200 training data, 60 validation data, and 70 test data.**
 
-Training cases including fully sampled k-space data will be provided in '.mat' format.
+Training cases including fully sampled k-space data and sampling trajectories will be provided in '.mat' format.
 
 Validation cases include under-sampled k-space data, sampling trajectories, and autocalibration signals (ACS, 16 lines or 16x16 regions) with various acceleration factors in '.mat' format.
 
