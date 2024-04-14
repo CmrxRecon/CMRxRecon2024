@@ -50,13 +50,13 @@ The 'CMRxRecon2024' challenge includes two independent tasks. Each team can choo
 ### The CMRxRecon Dataset
 A total of 330 healthy volunteers are recruited for multi-contrast CMR imaging in our imaging center. The dataset include multi-contrast k-space data, consist of cardiac cine, T1/T2mapping, tagging, phase-contrast (i.e., flow2d), and dark-blood imaging. It also includes imaging of different anatomical views like long-axis (2-chamber, 3-chamber, and 4-chamber), short-axis (SAX), left ventricul outflow tract (LVOT), and aorta (transversal and sagittal views).
 
-The released dataset includes 200 training data, 60 validation data, and 70 test data.
+**The released dataset includes 200 training data, 60 validation data, and 70 test data.**
 
 Training cases including fully sampled k-space data will be provided in '.mat' format.
 
 Validation cases include under-sampled k-space data, sampling trajectories, and autocalibration signals (ACS, 16 lines or 16x16 regions) with various acceleration factors in '.mat' format.
 
-Test cases include fully sampled k-space data, undersampled k-space data, sampling trajectories and autocalibration signals (ACS, 16 lines or 16x16 regions). Test cases will not be released before the challenge ends.
+Test cases include fully sampled k-space data, undersampled k-space data, sampling trajectories, and autocalibration signals (ACS, 16 lines or 16x16 regions). Test cases will not be released before the challenge ends.
 
 ![Image](https://github.com/CmrxRecon/CMRxRecon2024/blob/main/Showimage.png)
 
@@ -73,7 +73,7 @@ The code is provided to support reproducible research. If the code is giving syn
 You are free to use and/or refer to the CMRxRecon challenge and datasets in your own research after the embargo period (Dec 2024), provided that you cite the following manuscripts: 
 
 Reference of the imaging acquisition protocol: 
-1. Wang C, Lyu J, Wang S, et al. CMRxRecon: An open cardiac MRI dataset for the competition of accelerated image reconstruction[J]. arXiv preprint arXiv:2309.10836, 2023.
+1. Wang C, Lyu J, Wang S, et al. CMRxRecon: An open cardiac MRI dataset for the competition of accelerated image reconstruction[J]. arXiv preprint arXiv:2309.10836, 2023. https://arxiv.org/abs/2309.10836
 2. Wang C, Li Y, Lv J, et al. Recommendation for Cardiac Magnetic Resonance Imaging-Based Phenotypic Study: Imaging Part. Phenomics. 2021, 1(4): 151-170. https://doi.org/10.1007/s43657-021-00018-x
 
 Other reference (optional for citation):
@@ -86,4 +86,4 @@ Other reference (optional for citation):
 7. Wang S, Qin C, Wang C, et al. The Extreme Cardiac MRI Analysis Challenge under Respiratory Motion (CMRxMotion). arXiv preprint arXiv:2210.06385, 2022. https://arxiv.org/abs/2210.06385
 8. Gao S, Zhou H, Gao Y, Zhuang X. BayeSeg: Bayesian Modeling for Medical Image Segmentation with Interpretable Generalizability. Medical Image Analysis Volume 89, 102889, 2023 (Elsevier-MedIA 1st Prize & MICCAl Best Paper Award 2023) https://www.sciencedirect.com/science/article/pii/S1361841523001494
 9. Wang Z, Qian C, Guo D, Sun H, Li R, Zhao B, Qu X, One-dimensional Deep Low-rank and Sparse Network for Accelerated MRI, IEEE Transactions on Medical Imaging, 42: 79-90, 2023. https://doi.org/10.1109/TMI.2022.3203312
-10. Wang Z, et al., Deep Separable Spatiotemporal Learning for Fast Dynamic Cardiac MRI, arXiv preprint arXiv:2402.15939, 2024. https://arxiv.org/abs/2402.15939
+10. Wang Z, Xiao M, Zhou Y, et al., Deep Separable Spatiotemporal Learning for Fast Dynamic Cardiac MRI, arXiv preprint arXiv:2402.15939, 2024. https://arxiv.org/abs/2402.15939
