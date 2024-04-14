@@ -15,7 +15,9 @@ The objective of establishing the CMRxUniversalRecon challenge (Toward Universal
 
 ## Background
 Cardiac magnetic resonance imaging (CMR) has emerged as a crucial imaging technique for diagnosing cardiac diseases, thanks to its excellent soft tissue contrast and non-invasive nature. However, a notable limitation of MRI is its slow imaging speed, which causes patient discomfort and introduces motion artifacts into the images. 
+
 To accelerate image acquisition, CMR image reconstruction (recovering high-quality clinical interpretable images from highly under-sampled k-space data) has gained significant attention in recent years. Particularly, AI-based image reconstruction algorithms have shown great potential in improving imaging performance by utilizing highly under-sampled data. Currently, the field of CMR reconstruction lacks publicly available, standardized, and high-quality datasets for the development and assessment for AI-based CMR reconstruction. In the first run of the 'CMRxRecon' challenge (MICCAI 2023), we have provided cine and mapping data from a total of 300 subjects and the technical infrastructure as well as a baseline model for CMR reconstructions. The results of 'CMRxRecon' 2023 demonstrated that deep learning methods demonstrated significantly superior performance compared to traditional methods such as SENSE and GRAPPA in a single task scenario.
+
 As we all know, CMR imaging has the nature of multi-contrast, e.g., cardiac cine, mapping, tagging, phase-contrast, and dark-blood imaging. It also includes imaging of different anatomical views such as long-axis (2-chamber, 3-chamber, and 4-chamber), short-axis, outflow tract, and aortic (cross-sectional and sagittal views). Additionally, accelerated imaging trajectories, including uniformly undersampling and variable-density sampling, are employed. Unfortunately, conventional CNN-based reconstruction models often require training and deployment for each specific imaging scenario (imaging sequence, view, and device vendor), limiting their clinical application in the real world.
 
 Thus, in this second run of the CMR reconstruction challenge we aim to make an important step towards clinical implementation by extending the challenge scope in two directions:
@@ -43,9 +45,13 @@ TASK 2: Random sampling CMR reconstruction
 
 ### The CMRxRecon Dataset
 A total of 330 healthy volunteers are recruited for multi-contrast CMR imaging in our imaging center. The dataset include multi-contrast k-space data, consist of cardiac cine, T1/T2mapping, tagging, phase-contrast (i.e., flow2d), and dark-blood imaging. It also includes imaging of different anatomical views like long-axis (2-chamber, 3-chamber, and 4-chamber), short-axis (SAX), left ventricul outflow tract (LVOT), and aorta (transversal and sagittal views).
-The released dataset includes 200 training data, 60 validation data and 70 test data.
+
+The released dataset includes 200 training data, 60 validation data, and 70 test data.
+
 Training cases including fully sampled k-space data will be provided in '.mat' format.
+
 Validation cases include under-sampled k-space data, sampling trajectories, and autocalibration signals (ACS, 16 lines or 16x16 regions) with various acceleration factors in '.mat' format.
+
 Test cases include fully sampled k-space data, undersampled k-space data, sampling trajectories and autocalibration signals (ACS, 16 lines or 16x16 regions). Test cases will not be released before the challenge ends.
 
 ![Image](https://github.com/CmrxRecon/CMRxRecon2024/blob/main/Showimage.png)
