@@ -24,7 +24,7 @@ Thus, in this second run of the CMR reconstruction challenge we aim to make an i
 1) Trustworthy reconstruction on multi-contrast CMR imaging (two will be unseen in the training dataset) using a universal pre-trained reconstruction model;
 2) Robust reconstruction with diverse k-space trajectory and various acceleration factors using a universal model.  
 
-This repository contains Matlab code for data loaders, subsampling functions, evaluation metrics, and reference implementations of simple baseline methods. It also contains implementations for methods in some of the publications of the CMRxRecon project.
+This repository contains Matlab code for data loaders, undersampling functions, evaluation metrics, and reference implementations of simple baseline methods. It also contains implementations for methods in some of the publications of the CMRxRecon project.
 
 ## Challenge tasks
 The 'CMRxRecon2024' challenge includes two independent tasks. Each team can choose to participate one of them or both:
