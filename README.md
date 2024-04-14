@@ -28,12 +28,14 @@ This repository contains Matlab code for data loaders, undersampling functions, 
 
 ## Challenge tasks
 The 'CMRxRecon2024' challenge includes two independent tasks. Each team can choose to participate one of them or both:
+
 TASK 1: Multi-contrast CMR reconstruction
 
 1) Goal: To develop a contrast-universal model that can 1) provide high-quality image reconstruction for highly-accelerated uniform undersampling (acceleration factors are 4x, 8x and 10x, ACS not included for calculations); 2) being able to process multiple contrast reconstructions with different sequences, views, and scanning protocols using a single universal model. The proposed method is supposed to offer a unified framework that can handle various imaging contrasts, allowing for faster and more robust reconstructions across different CMR protocols.
 2) Note: In TASK 1, participants are allowed to train three individual contrast-universal models to respectively reconstruct multi-contrast data at the aforementioned three acceleration factors.
 
 ![Task 1](https://github.com/CmrxRecon/CMRxRecon2024/blob/main/Task1.png)
+
 TASK 2: Random sampling CMR reconstruction
 
 1) Goal: To develop a sampling-universal model that can robustly reconstruct CMR images 1) from different k-space trajectories (uniform, Guassian, and pseudo radial undersampling with temporal/parametric interleaving); 2) at different acceleration factors (acceleration factors from 4x to 24x, ACS not included for calculations). The proposed method is supposed to leverage deep learning algorithms to exploit the potential of random sampling, enabling faster acquisition times while maintaining high-quality image reconstructions.
