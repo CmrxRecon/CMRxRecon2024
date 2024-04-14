@@ -2,7 +2,7 @@
 
 ## About
 **Welcome to the Cardiac MRI Reconstruction Challenge 2024 (CMRxRecon2024)！**  
-The CMRxRecon2024 (also known as CMRxUniversalRecon)Challenge is a part of the 27th International Conference on Medical Image Computing and Computer Assisted Intervention, MICCAI 2024, which will be held from October 6th to 10th 2024 in Marrakesh, Morocco.
+The CMRxRecon2024 (also known as CMRxUniversalRecon) Challenge is a part of the 27th International Conference on Medical Image Computing and Computer Assisted Intervention, MICCAI 2024, which will be held from October 6th to 10th 2024 in Marrakesh, Morocco.
 
 
 [Website](https://cmrxrecon.github.io/2024) |
