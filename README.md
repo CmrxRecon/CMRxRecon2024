@@ -47,7 +47,7 @@ The 'CMRxRecon2024' challenge includes two independent tasks. Each team can choo
 
 ## Documentation
 
-### The CMRxRecon Dataset
+### The CMRxRecon2024 Dataset
 A total of 330 healthy volunteers are recruited for multi-contrast CMR imaging in our imaging center. The dataset include multi-contrast k-space data, consist of cardiac cine, T1/T2mapping, tagging, phase-contrast (i.e., flow2d), and dark-blood imaging. It also includes imaging of different anatomical views like long-axis (2-chamber, 3-chamber, and 4-chamber), short-axis (SAX), left ventricul outflow tract (LVOT), and aorta (transversal and sagittal views).
 
 **The released dataset includes 200 training data, 60 validation data, and 70 test data.**
