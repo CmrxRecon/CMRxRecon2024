@@ -228,7 +228,7 @@ Data in folder 'Mask_Task2': cine_lax_mask_xxx.mat
 ===========================
 
 ===========================
-3. Matlab code for generating undersampled kspace using the fully sampled kspace and 3D k-t undersampling mask
+3. Matlab code for generating undersampled kspace using the fully sampled kspace and 3D k-t undersampling mask in Task 2
 
 mask_5D = reshape(mask, [nx,ny,1,1,nt]);
 kus = kspace_full .* mask_5D;
