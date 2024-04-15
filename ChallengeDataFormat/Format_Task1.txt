@@ -237,7 +237,7 @@ Data in folder 'Mask_Task1': cine_lax_mask_xxx.mat
 ===========================
 
 ===========================
-3. Matlab code for generating undersampled kspace using the fully sampled kspace and 2D undersampling mask
+3. Matlab code for generating undersampled kspace using the fully sampled kspace and 2D undersampling mask in Task 1
 
 kus = kspace_full .* mask;
 ===========================
