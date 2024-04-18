@@ -6,7 +6,7 @@ The CMRxRecon2024 (also known as CMRxUniversalRecon) Challenge is a part of the 
 
 
 [Website](https://cmrxrecon.github.io/2024) |
-[Dataset_TODO](https://www.synapse.org/#!Synapse:syn57407073/wiki/) |
+[Dataset](https://www.synapse.org/#!Synapse:syn57407073/datasets/) |
 [GitHub](https://github.com/CmrxRecon/CMRxRecon2024/) |
 [Publications](#Publication-references)
 
