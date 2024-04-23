@@ -10,6 +10,7 @@
 % output: img_sense
 
 %% load data
+% Specify your directory to the data.
 load("T1map.mat"); % load raw kspace data
 kspace = kus; % please check the "ChallengeDataFormat" folder for name description
 
