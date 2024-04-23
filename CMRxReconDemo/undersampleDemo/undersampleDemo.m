@@ -7,8 +7,10 @@ addpath('./utils')
 
 %% load data and undersample
 % load kspace
+% Specify the directory to your fully-sampled data of cine_sax.mat
 load('cine_sax.mat') 
 % load undersampling mask
+% Specify the directory to your undersampling mask for cine_sax.mat
 load('cine_sax_mask_Uniform8.mat')
 
 kspace_sub = kspace_full(:,:,1,1,1);% kspace data of first coil, first slice and first frame
