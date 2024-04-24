@@ -1,10 +1,35 @@
-# For submission, Please keep the current directory structure and save the data into the corresponding subfolders.
+# Submission Guidelines
 
-# Please name your zip file as "Submission.zip"
+Please ensure to maintain the current directory structure and save the data into the corresponding subfolders as specified.
 
-# Task 1 follows
-## {Modality}/ValidationSet/Task1/PXXX/{ModalityFilename}_kus_Uniform{R}.mat
+Name your zip file as `Submission.zip`.
 
-# Task 2 follows
-## {Modality}/ValidationSet/Task2/PXXX/{ModalityFilename}_kus_kt{SamplingR}.mat
+## Task 1
+
+### Directory Structure
+For each modality, follow this structure:
+{Modality}/ValidationSet/Task1/PXXX/{ModalityFilename}_kus_Uniform{R}.mat
+
+
+### Modalities
+- **Seen Modalities:** Aorta, Cine, Mapping, Tagging
+- **Unseen Modalities:** BlackBlood, Flow2d
+  - Note: For the unseen modalities, the data dimensions are `[nx, ny, nc, ns]`, which differ from the seen modalities.
+
+### Processing Instructions
+All data should be coil-combined and cropped using the MATLAB script `run4Ranking.m`, available in the `CMRxReconDemo` subdirectory.
+
+## Task 2
+
+### Directory Structure
+For each modality, follow this structure:
+{Modality}/ValidationSet/Task2/PXXX/{ModalityFilename}_kus_kt{SamplingR}.mat
+
+
+
+### Modalities
+- **Seen Modalities:** Aorta, Cine, Mapping, Tagging
+
+### Processing Instructions
+All data should be coil-combined and cropped using the MATLAB script `run4Ranking.m`, provided in the `CMRxReconDemo` subdirectory.
 
