@@ -14,7 +14,7 @@ For each modality, follow this structure:
 ### Modalities
 - **Seen Modalities:** Aorta, Cine, Mapping, Tagging
 - **Unseen Modalities:** BlackBlood, Flow2d
-  - Note: For the unseen modalities, the data dimensions are `[nx, ny, nc, ns]`, which differ from the seen modalities.
+  - Note: For BlackBlood, the data dimensions are `[nx, ny, nc, nz]`, which differ from the other modalities.
 
 ### Processing Instructions
 All data should be coil-combined and cropped using the MATLAB script `run4Ranking.m`, available in the `CMRxReconDemo` subdirectory.
