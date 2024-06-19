@@ -30,7 +30,7 @@ else
     [sx,sy,scc,sz,t] = size(img);
 end
 
-%  revise by Fanwen, this doesn't match the T2
+%  revise by Fanwen, this doesn't match the T1 
 isMapping = contains(filetype, 'T1map') || contains(filetype, 'T2map');
 
 %  clipping layers and timeframes
