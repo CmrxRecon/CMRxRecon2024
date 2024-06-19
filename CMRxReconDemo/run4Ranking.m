@@ -29,7 +29,9 @@ if contains(filetype, 'blackblood')
 else
     [sx,sy,scc,sz,t] = size(img);
 end
-isMapping =  strcmp(filetype, 'T1map.mat') || strcmp(filetype, 'T2map.mat');
+
+%  revise by Fanwen, this doesn't match the T2
+isMapping = contains(filetype, 'T1map') || contains(filetype, 'T2map');
 
 %  clipping layers and timeframes
 if sz < 3
