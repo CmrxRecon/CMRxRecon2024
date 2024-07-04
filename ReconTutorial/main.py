@@ -11,6 +11,7 @@ import hdf5storage
 
 import fastmri
 from fastmri.data import transforms as T
+from run4ranking import run4Ranking
 
 # load the file
 def readfile2numpy(file_name):
@@ -72,3 +73,17 @@ slice_image_rss = fastmri.rss(slice_image_abs, dim=0)
 plt.imshow(np.abs(slice_image_rss.numpy()), cmap='gray', vmax = 0.0015)
 # save the image to mat file.
 savenumpy2mat(slice_image_rss, 'slice_image_rss', 'slice_image_rss.mat')
+
+
+# run4ranking
+# 
+file = 'cine_sax.mat'  # or just the modality cine_sax
+slice_full_kspace = T.to_tensor(fullmulti)              # Convert from numpy array to pytorch tensor
+slice_full_image = fastmri.ifft2c(slice_full_kspace) 
+
+# attention: the data in matlab is tranpose to the one in python.
+all_img = (slice_full_image.T).numpy() # nx, ny, nz, nt
+
+img4ranking = run4Ranking(all_img, file)
+
+# save the file into the mat with the same variable name.
