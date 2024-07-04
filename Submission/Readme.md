@@ -17,7 +17,7 @@ For each modality, follow this structure:
   - Note: For BlackBlood, the data dimensions are `[nx, ny, nc, nz]`, which differ from the other modalities.
 
 ### Processing Instructions
-All data should be coil-combined and cropped using the MATLAB script `run4Ranking.m`, available in the `CMRxReconDemo` subdirectory.
+All data should be coil-combined and cropped using the MATLAB script [`run4Ranking.m`](../CMRxReconDemo/run4Ranking.m), available in the `CMRxReconDemo` subdirectory.
 
 ## Task 2
 
