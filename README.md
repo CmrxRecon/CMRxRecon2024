@@ -78,10 +78,11 @@ You are free to use and/or refer to the CMRxRecon challenge and datasets in your
 **Reference of the CMR imaging acquisition protocol: **
 1.	Wang C, Lyu J, Wang S, et al. CMRxRecon: A publicly available k-space dataset and benchmark to advance deep learning for cardiac MRI. Scientific Data, 2024, 11(1): 687.
 2.	Wang C, Lyu J, Wang S, et al. CMRxRecon: An open cardiac MRI dataset for the competition of accelerated image reconstruction. arXiv preprint arXiv:2309.10836, 2023.
-3.	Wang Z, Wang F, Qin C, et al. CMRxRecon2024: A Multi-Modality, Multi-View K-Space Dataset Boosting Universal Machine Learning for Accelerated Cardiac MRI. arXiv preprint arXiv:2406.19043, 2024.
-4.	Lyu J, Qin C, Wang S, et al. The state-of-the-art in Cardiac MRI Reconstruction: Results of the CMRxRecon Challenge in MICCAI 2023. arXiv preprint arXiv:2404.01082, 2023.
-5.	Wang C, Li Y, Lv J, et al. Recommendation for Cardiac Magnetic Resonance Imaging-Based Phenotypic Study: Imaging Part. Phenomics. 2021, 1(4): 151-170. 
-6.	Wang S, Qin C, Wang C, et al. The Extreme Cardiac MRI Analysis Challenge under Respiratory Motion (CMRxMotion). arXiv preprint arXiv:2210.06385, 2022.
+3.	Wang Z, Wang F, Qin C, et al. CMRxRecon2024: CMRxRecon2024: A Multimodality, Multiview k-Space Dataset Boosting Universal Machine Learning for Accelerated Cardiac MRI. Radiology: Artificial Intelligence. 2025, 7(2): e240443.
+4.	Wang Z, Wang F, Qin C, et al. CMRxRecon2024: A Multi-Modality, Multi-View K-Space Dataset Boosting Universal Machine Learning for Accelerated Cardiac MRI. arXiv preprint arXiv:2406.19043, 2024.
+5.	Lyu J, Qin C, Wang S, et al. The state-of-the-art in Cardiac MRI Reconstruction: Results of the CMRxRecon Challenge in MICCAI 2023. Medical Image Analysis. 2025. 101: 103485.
+6.	Wang C, Li Y, Lv J, et al. Recommendation for Cardiac Magnetic Resonance Imaging-Based Phenotypic Study: Imaging Part. Phenomics. 2021, 1(4): 151-170. 
+7.	Wang S, Qin C, Wang C, et al. The Extreme Cardiac MRI Analysis Challenge under Respiratory Motion (CMRxMotion). arXiv preprint arXiv:2210.06385, 2022.
 
 **Reference for previously developed reconstruction algorithms: **
 1.	Wang C, Jang J, Neisius U, et al. Black blood myocardial T2 mapping. Magnetic resonance in medicine. 2019, 81(1): 153-166. 
