@@ -1,0 +1,27 @@
+[submodule "Modelpool/PromptMR-plus"]
+	path = Modelpool/PromptMR-plus
+	url = https://github.com/hellopipu/PromptMR-plus
+[submodule "Modelpool/CBIM"]
+	path = Modelpool/CBIM
+	url = https://github.com/hellopipu/PromptMR-plus
+[submodule "Modelpool/KNSynapse"]
+	path = Modelpool/KNSynapse
+	url = https://github.com/zczam/CardiAxs-CMRxRecon2024/
+[submodule "Modelpool/direct"]
+	path = Modelpool/direct
+	url = https://github.com/NKI-AI/direct
+[submodule "Modelpool/CardiAxs-CMRxRecon2024"]
+	path = Modelpool/CardiAxs-CMRxRecon2024
+	url = https://github.com/zczam/CardiAxs-CMRxRecon2024/
+[submodule "Modelpool/ITU_PIMI_Lab"]
+	path = Modelpool/ITU_PIMI_Lab
+	url = https://github.com/Ruru-Xu/HyperCMR
+[submodule "Modelpool/LUMC"]
+	path = Modelpool/LUMC
+	url = https://github.com/dong845/UPCMR
+[submodule "Modelpool/KNSynaps"]
+	path = Modelpool/KNSynaps
+	url = https://github.com/kiananvari/CMRRecon
+[submodule "Modelpool/CardiAxs"]
+	path = Modelpool/CardiAxs
+	url = https://github.com/zczam/CardiAxs-CMRxRecon2024
